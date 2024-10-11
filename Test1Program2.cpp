@@ -50,7 +50,6 @@ int main()
             << "[3] Multiply" << endl
             << "[4] Divide" << endl
             << "[5] Power" << endl
-            << "[6] Quit Program" << endl
             << "Please enter the number of your choice: " << endl;
         cin >> choice;
 
@@ -101,9 +100,7 @@ int main()
             cout << "The total is " << powTotal << endl;
             break;
         
-        case 6:
-            cout << "Bye!";
-            break;
+       
 
         default:
                 cout << "Please make a valid choice";
@@ -116,7 +113,7 @@ int main()
 
     }
 
-
+    return 0;
 
 
 }
